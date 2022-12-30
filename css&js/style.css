@@ -1,0 +1,136 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+	background-image:url('../img/background.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	display: grid;
+    place-items: center;
+  }
+.container{
+    width: auto;
+	margin: 4em;
+}
+.head__section img{
+    display:block;
+    margin: 0 auto;
+    height: 5rem;
+    width: 5rem;
+    object-fit: cover;
+}
+.head__section p{
+    text-align: center;
+	margin-top: 13px;
+	/*font-size: 1.5em;*/
+    color: white;
+}
+
+.head__section h2{
+    text-align: center;
+	margin-top: 13px;
+	font-size: 1.5em;
+    color: white;
+}
+.social__links ul li{
+    width: 100%;
+    margin: 1.2rem 0;
+    padding: 0.4rem 0.8rem;
+    background: rgba( 255, 255, 255, 0.1 );
+    backdrop-filter: blur( 0px );
+    border-radius: 5px;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    box-shadow: 0 0 0.8rem  rgba(255, 255, 255, .12);
+}
+.js-tilt-glare{
+    border-radius: 5px;
+}
+.social__links ul li a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #ffff;
+    font-size: 1rem;
+
+}
+.social__links ul li a i{
+    text-align: center;
+    line-height: 4rem;
+	padding: 10px 20px;
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+    transform: scale(1.4) translateZ(50px);
+    transition: 0.25s;
+}
+
+/*payment css*/
+.payment ul li{
+    width: 100%;
+    margin: 1.2rem 0;
+    padding: 0.4rem 0.8rem;
+    background: rgba( 255, 255, 255, 0.1 );
+    backdrop-filter: blur( 0px );
+    border-radius: 5px;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    box-shadow: 0 0 0.8rem  rgba(255, 255, 255, .12);
+}
+
+.payment ul li a{
+    width: 100%;
+    align-items: center;
+    color: #ffff;
+    font-size: 2rem;
+
+}
+.payment ul li a i{
+    text-align: center;
+    line-height: 4rem;
+	padding: 0px 29px;
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+    transform: scale(1.4) translateZ(50px);
+    transition: 0.25s;
+}
+
+.social__links ul li a span{
+    line-height: 1.4rem;
+}
+.social__links ul .instagram:hover{
+    background: linear-gradient(to right, #8a3ab9, #e95950, #fccc63, #cd486b, #4c68d7) ;
+}
+.social__links ul .twitter:hover{
+    background: #00acee;
+}
+.social__links ul .linkedin:hover{
+    background: #0A66C2;
+}
+.social__links ul .github:hover{
+    background: #333;
+}
+.social__links ul .payu:hover{
+    background: black;
+}
+.payment ul li a span{
+    line-height: 1.4rem;
+}
+.payment ul .options:hover{
+    background: silver;
+}
+@media only screen and (max-width: 549px) {
+    .container{
+        width: auto;
+    }
+  }
